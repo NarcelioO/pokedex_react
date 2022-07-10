@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap');
+.card{
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    flex-direction: column;
+    background-color: #C4C4C4;
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+}
+p{
+    font-family: 'Roboto Regular',monospace;
+    font-size: 20px;
+    text-transform: capitalize;  
+}
+.id{
+    font-family: 'Roboto Mono',monospace;
+    color: #4D4545;
+    font-size: 14px;
+}
+.name{
+    font-family: 'Roboto Mono',monospace;
+    color: #4D4545;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.type{
+    font-family: 'Roboto',monospace;
+    
+    color: white;
+    display: flex;
+    
+    font-size: 12px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.card_type{
+    padding: 2px;
+    border-radius: 3px;
+    width: 60px;
+    text-align: center;
+}
+.card_img{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-top-left-radius:5px ;
+    border-top-right-radius: 5px;
+}
+.text_pokemon{
+    width: 100%;
+    display: flex;
+    margin-left: 16px;
+    margin-top: 16px;
+    flex-direction: column;
+}
+.text_pokemon_1{
+    margin-left: 16px; 
+}
+.fire{
+    background-color: red;
+}
+.water{
+    background-color: #6390F0;
+}
+.normal{
+    background-color: #A8A77A;
+}
+.electric{
+    background-color: #F7D02C;
+}
+.grass{
+    background-color: #7AC74C;
+}
+.poison{
+    background-color: #A33EA1;
+}
+.ghost{
+    background-color: #735797;
+}
+.flying{
+    background-color: #A98FF3;
+}
+.bug{
+    background-color: #A6B91A;
+}
+.ground{
+    background-color: #E2BF65;
+}
+.fairy{
+    background-color: #D685AD;
+}
+.fighting{
+    background-color: #C22E28;
+}
+.psychic{
+    background-color: #F95587;
+}
+.rock{
+    background-color: #B6A136;
+}
+.ice{
+    background-color: #96D9D6;
+}
+.dragon{
+    background-color: #6F35FC;
+}
+.steel{
+    background-color: #B7B7CE;
+}
